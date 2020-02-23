@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poil:blocks/tyhthkjukg5",
+    "up": "poil:blocks/tyhthkjukg5",
+    "north": "poil:blocks/tyhthkjukg5",
+    "east": "poil:blocks/tyhthkjukg5",
+    "south": "poil:blocks/tyhthkjukg5",
+    "west": "poil:blocks/tyhthkjukg5",
+    "particle": "poil:blocks/tyhthkjukg5"
+  }
+}
