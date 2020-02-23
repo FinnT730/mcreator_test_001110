@@ -10,7 +10,7 @@
     "textureBack": "tyhthkjukg5",
     "renderType": 10,
     "customModelName": "Normal",
-    "rotationMode": 4,
+    "rotationMode": 5,
     "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
@@ -70,6 +70,9 @@
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
+    "onTickUpdate": {
+      "name": "Mathsin"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

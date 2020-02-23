@@ -10,7 +10,7 @@
       "ids": {}
     },
     {
-      "name": "CorruptWorldBlockAdded_scan",
+      "name": "Mathsin",
       "type": "procedure",
       "sortid": 2,
       "compiles": true,
@@ -19,26 +19,6 @@
       "metadata": {
         "dependencies": [
           {
-            "name": "direction",
-            "type": "direction"
-          },
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
             "name": "world",
             "type": "world"
           }
@@ -46,7 +26,68 @@
       }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "_x",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "_y",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "_z",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "_place_block_true_false",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "_index",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    },
+    {
+      "name": "_incrememt_index",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "_decrement_index",
+      "type": "logic",
+      "scope": "world",
+      "value": "false"
+    },
+    {
+      "name": "_include_math",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "_place_block",
+      "type": "logic",
+      "scope": "map",
+      "value": "false"
+    },
+    {
+      "name": "_number_SIN",
+      "type": "number",
+      "scope": "world",
+      "value": "0"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {

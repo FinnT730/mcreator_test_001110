@@ -1,27 +1,28 @@
 {
   "variants": {
+    "facing=south": {
+      "model": "poil:block/corruptworld"
+    },
     "facing=north": {
       "model": "poil:block/corruptworld"
     },
     "facing=east": {
       "model": "poil:block/corruptworld",
-      "y": 90
-    },
-    "facing=south": {
-      "model": "poil:block/corruptworld",
-      "y": 180
+      "x": 90
     },
     "facing=west": {
       "model": "poil:block/corruptworld",
-      "y": 270
+      "x": 90
     },
     "facing=up": {
       "model": "poil:block/corruptworld",
-      "x": 270
+      "x": 90,
+      "y": 90
     },
     "facing=down": {
       "model": "poil:block/corruptworld",
-      "x": 90
+      "x": 90,
+      "y": 90
     }
   }
 }
